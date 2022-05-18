@@ -1,0 +1,128 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: slategrey;
+	/*background-position: right;*/
+	/*font-family: sans-serif;*/
+	text-align: center;
+	text-transform: capitalize;
+	text-align: center;
+	}
+.mainbox	
+{
+	background: rosybrown;
+	color:black;
+	top: 0%;
+	left: 25%;
+	position: absolute;
+	box-sizing: content-box;
+	text-align: center;
+	width: 40%;
+    border: 10px double black;
+     padding: 20px;
+     margin: 50px;
+     border-radius: 20px;
+}
+
+.popup
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.content-box
+{
+	position: relative;
+	width: 600px;
+	height: 400px;
+	background: steelblue;
+	border-radius: 20px;
+	display: flex;
+	box-shadow: 0 5px 15px rgba(50, 0, 0, 1.0);
+}
+#time
+{
+	font-size: 50px;
+	position: center;
+	font-style: italic;
+	font-weight: 800;
+
+}
+#time1
+{
+	font-size: 50px;
+	//position: center;
+	font-style: italic;
+
+}
+#Level
+{
+	font-size: 50px;
+	font-style: unset;
+}
+#counts
+{
+	font-size: 50px;
+}
+#Button
+{
+	background-color: black; /* Green */
+  border: 5px double orange;
+  color: red;
+  font-style: italic;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: initial;
+  display: inline-block;
+  font-size: 16px;
+  box-sizing: content-box;
+  border-radius: 20px;
+  background: radial-gradient(white 30%,black 70%);
+}
+#Button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#reset:hover
+{
+	background-color: blueviolet;
+	 width: 50px;
+	 height: 20px;/* Green */
+  
+}
+	#Button:hover 
+	{
+		width: 50px;
+		 height: 20px;
+		 background-color: #3e8e41
+		}
+#reset
+{
+	background-color: black; /* Green */
+  border: 5px double orange;
+  color: red;
+  font-style: italic;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-sizing: content-box;
+  border-radius: 20px;
+  background: radial-gradient(white 30%,black 70%); 
+}
+#reset:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#logout
+{
+	color: red;
+	font-style: italic;
+	position: relative;
+	position: right;
+	text-align: right;
+}
